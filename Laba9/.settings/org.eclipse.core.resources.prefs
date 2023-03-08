@@ -1,3 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/main/java=Windows-1251
 encoding//src/main/java/Laba2=cp1251
-encoding/<project>=windows-1251
+encoding//src/main/resources=Windows-1251
+encoding/<project>=Windows-1251

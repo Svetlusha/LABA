@@ -1,8 +1,11 @@
 package Laba2;
 
 import java.awt.event.ActionEvent;
+import java.util.Arrays;
 
 import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 import java.awt.event.*;
 
@@ -27,6 +30,13 @@ public class j_combo_box implements ActionListener {
         	//в верхний левый угол
         	
         }
-        
+        if (choice == 3){
+        	array arr = new array();
+          	 int[] mass = arr.arrr();
+          	 JFrame jFrame = new JFrame();
+               JOptionPane.showMessageDialog(jFrame, "Неотсортированный массив: "+ Arrays.toString(mass)+" \nОтсортированный массив: " + Arrays.toString(sortirovka.sortirovka(mass)));
+   		
+        	
+        }
 }
 }
