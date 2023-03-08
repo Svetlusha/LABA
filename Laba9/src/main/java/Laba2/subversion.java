@@ -68,6 +68,12 @@ public class subversion {
 	button_information.addActionListener(action_info); // добавляем слушатель к кнопке информация
 	main_panel.add(button_information);
 	
+	//JButton button_generation = new JButton("Генерация"); // добавляем кнопку генерация
+	//button_generation.setBounds(20,390,130,30);
+	//GeneratorChisel action_gen = new GeneratorChisel(); //создаем слушатель к кнопке генерация
+	//button_generation.addActionListener(action_gen); // добавляем слушатель к кнопке генерация
+	//main_panel.add(button_generation);
+	
 	JLabel mult1 = new JLabel("Введите боковую сторону:");
 	mult1.setBounds(20,255,160,20);
 	main_panel.add(mult1);
