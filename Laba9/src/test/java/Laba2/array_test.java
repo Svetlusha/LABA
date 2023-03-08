@@ -16,14 +16,14 @@ public class array_test {
 	public void test() { 
 		array arr = new array(); 
 	int[] array = arr.arrr();
-	assertTrue(array.length==15); 
+	assertTrue(array.length==10); 
 	}
 	
 	@Test 
 	public void test2() { 
 		array arr = new array();
 		int[] arrayy = arr.arrr();
-		for(int i = 0; i<15; i++) { 
+		for(int i = 0; i<10; i++) { 
 			assertNotNull(arrayy[i]);
 			} 
 		}
