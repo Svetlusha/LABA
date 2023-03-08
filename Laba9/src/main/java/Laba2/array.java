@@ -3,7 +3,7 @@ package Laba2;
 public class array {
 	public static int min = 100;
     public static int max = 700;
-    public int[] rr() {
+    public int[] arrr() {
 
     	generation arr = new generation();
 
