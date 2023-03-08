@@ -3,7 +3,7 @@ package Laba2;
 public class array {
 	public static int min = 900;
     public static int max = 1200;
-    public int[] rr() {
+    public int[] arrr() {
 
     	generation arr = new generation();
 
@@ -16,4 +16,5 @@ public class array {
         }
         return Buff;
     }
+	
 }
